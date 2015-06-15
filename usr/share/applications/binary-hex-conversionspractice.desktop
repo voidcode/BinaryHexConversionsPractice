@@ -1,9 +1,9 @@
 [Desktop Entry]
-Version=1.0
+Version=0.0.1
 Name=BinaryHexConversionsPractice
 Comment=Decimal to Binary and Hex conversions practice
-Exec=BinaryHexConversionsPractice
-Icon=/usr/share/BinaryHexConversionsPractice/images/logo.png
+Exec=python /usr/bin/BinaryHexConversionsPractice/BinaryHexConversionsPractice.py
+Icon=/usr/bin/BinaryHexConversionsPractice/images/logo.png
 Terminal=false
 Type=Application
 Categories=Utility;Application;

@@ -29,8 +29,10 @@ class EventHandler():
 		self.labelHex.set_text("?")
 class BinaryHexConversionsPractice:
 	def __init__(self):
+		approot = os.path.dirname(os.path.abspath(__file__))
+		print str(approot)
 		builder = Gtk.Builder()
-		builder.add_from_file(os.getcwd()+'/ui/viewer.glade')
+		builder.add_from_file(approot+'/ui/viewer.glade')
 		#self.bgColor = Gdk.RGBA.from_color(Gdk.color_parse('#4b4943'))
 
 		self.window = builder.get_object('window_main')
@@ -45,7 +47,7 @@ class BinaryHexConversionsPractice:
 		self.btnShow.connect('clicked', eh.onShowNumbers)
 
 		self.window.set_title('Binary / Hex ConversionsPractice')
-		self.window.set_icon_from_file(os.getcwd()+'/images/logo.png')
+		self.window.set_icon_from_file(approot+'/images/logo.png')
 		#self.window.override_background_color(0, self.bgColor)
 		self.window.connect('delete-event', Gtk.main_quit)
 		self.window.show_all()

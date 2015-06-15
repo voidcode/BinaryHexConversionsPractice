@@ -1,0 +1,10 @@
+Package: BinaryHexConversionsPractice
+Version: 0.0.1
+Architecture: all
+Essential: no
+Section: web
+Priority: optional
+Depends: python (>=2.7)
+Maintainer: Terkel Sorensen
+Installed-Size: 130
+Description: Decimal to binary and hex conversions practice app
