@@ -4,10 +4,8 @@ Decimal to binary and hex conversions practice app.
 ![BinaryHexConversionsPractice](https://raw.githubusercontent.com/voidcode/BinaryHexConversionsPractice/master/PR/ui.gif)
 
 
-#Run this app
+##Install app on Ubuntu.
 
-```
-  cd /tmp && wget https://github.com/voidcode/BinaryHexConversionsPractice/archive/master.zip && unzip master.zip && cd BinaryHexConversionsPractice-master/ && python main.py
-```
+[BinaryHexConversionsPractice_0.0.1_all.deb](https://github.com/voidcode/BinaryHexConversionsPractice/blob/master/BinaryHexConversionsPractice_0.0.1_all.deb?raw=true)
 
 
