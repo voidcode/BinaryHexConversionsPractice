@@ -8,4 +8,5 @@ Decimal to binary and hex conversions practice app.
 
 [BinaryHexConversionsPractice_0.0.1_all.deb](https://github.com/voidcode/BinaryHexConversionsPractice/blob/master/BinaryHexConversionsPractice_0.0.1_all.deb?raw=true)
 
+Package build and teste with Ubuntu 14.04.
 
